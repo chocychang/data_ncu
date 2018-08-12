@@ -11,13 +11,17 @@
         android:id="@+id/text_dia2"
         android:layout_width="wrap_content"
         android:layout_height="34dp"
-        android:layout_marginTop="48dp"
-        android:text="培養創造力"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="2dp"
+        android:text="培養孩童創造力"
         android:textColor="@color/intro2"
         android:textSize="22sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_dia6" />
 
@@ -25,17 +29,17 @@
         android:id="@+id/text_dia6"
         android:layout_width="wrap_content"
         android:layout_height="34dp"
-        android:layout_marginBottom="26dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginEnd="52dp"
         android:layout_marginStart="18dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="8dp"
         android:text="滿足觸覺型學習者"
         android:textColor="#ffeb0f"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/text_dia2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.379"
         app:layout_constraintStart_toEndOf="@+id/imageView17"
         app:layout_constraintTop_toBottomOf="@+id/text_dia4"
         app:layout_constraintVertical_bias="1.0" />
@@ -44,10 +48,10 @@
         android:id="@+id/text_dia4"
         android:layout_width="wrap_content"
         android:layout_height="26dp"
-        android:layout_marginBottom="9dp"
+        android:layout_marginBottom="10dp"
         android:layout_marginEnd="80dp"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="19dp"
         android:text="＃讓孩子創作心目中的景點"
         android:textAlignment="viewStart"
         android:textColor="@color/colorAccent"
@@ -55,7 +59,6 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_dia3" />
 
@@ -73,7 +76,6 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/text_dia4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
@@ -95,7 +97,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.07999998"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <ImageView
@@ -105,6 +107,7 @@
         android:layout_marginBottom="4dp"
         android:layout_marginEnd="88dp"
         android:layout_marginStart="88dp"
+        android:layout_marginTop="2dp"
         android:src="@drawable/painting_brush2"
         app:layout_constraintBottom_toTopOf="@+id/text_dia3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -112,37 +115,32 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/share"
-        tools:layout_editor_absoluteX="385dp"
-        tools:layout_editor_absoluteY="399dp" />
-
-    <ImageView
         android:id="@+id/imageView17"
         android:layout_width="41dp"
         android:layout_height="69dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="2dp"
         android:src="@drawable/share"
         app:layout_constraintBottom_toTopOf="@+id/imageView22"
         app:layout_constraintEnd_toStartOf="@+id/text_dia4"
-        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintHorizontal_bias="0.584"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_dia4" />
 
     <ImageView
         android:id="@+id/imageView22"
-        android:layout_width="36dp"
-        android:layout_height="72dp"
+        android:layout_width="41"
+        android:layout_height="69"
         android:layout_marginBottom="80dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="4dp"
         android:src="@drawable/share"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView17"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.539"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView17" />
 
